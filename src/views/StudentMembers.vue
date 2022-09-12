@@ -20,10 +20,10 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
+import Navbar from '@/components/Navbar.vue';
 
 export default {
-  name: "home",
+  name: 'home',
   components: {
     Navbar,
   },
@@ -31,19 +31,24 @@ export default {
     return {
       items: [
         {
-          name: "अमित वर्मा",
+          name: 'मोदित पुरि',
 
-          url: require("@/assets/Amit Verma.jpg"),
+          url: require('@/assets/modit puri.jpeg'),
         },
         {
-          name: "स्नेहिल मिश्रा",
+          name: 'यश रामगढ़िया',
 
-          url: require("@/assets/student2.jpg"),
+          url: require('@/assets/yash ramgarhia.jpg'),
         },
         {
-          name: "विशाखा घाडी",
+          name: 'राहुल जालान',
 
-          url: require("@/assets/student3.jpg"),
+          url: require('@/assets/rahuljalan.jpg'),
+        },
+        {
+          name: 'पंकज कुमार',
+
+          url: require('@/assets/PankajKumar.jpeg'),
         },
 
         // Add new members here
@@ -51,14 +56,14 @@ export default {
       ],
       breadcrumbs: [
         {
-          text: "होम",
+          text: 'होम',
           disabled: false,
-          href: "/",
+          href: '/',
         },
         {
-          text: "विद्यार्थी सदस्य",
+          text: 'विद्यार्थी सदस्य',
           disabled: true,
-          href: "/members",
+          href: '/members',
         },
       ],
     };

@@ -84,14 +84,14 @@ aside
           .creators
             span.text-yellow निर्माता:
             .creator-item
-              span प्रज्जवल डिमरी
+              span राहुल जालान
               v-row.creator-icon
-                a(href="https://prajjwal.me/", target="_blank")
+                a(href="https://www.rahuljalan.tech/", target="_blank")
                   v-icon mdi-web
-                a.pl-2(href="https://t.me/prajjwaldimri", target="_blank")
+                a.pl-2(href="https://t.me/rahuljalan23", target="_blank")
                   v-icon mdi-telegram
                 a.pl-2(
-                  href="https://github.com/prajjwaldimri",
+                  href="https://github.com/rahuljalan23",
                   target="_blank"
                 )
                   v-icon mdi-github-face
@@ -297,66 +297,66 @@ export default {
       sheet: false,
       items: [
         {
-          title: "हमारे बारे में",
+          title: 'हमारे बारे में',
           items: [
             {
-              title: "सदस्य",
-              to: "/members",
+              title: 'सदस्य',
+              to: '/members',
             },
             {
-              title: "Student सदस्य",
-              to: "/studentmembers",
+              title: 'Student सदस्य',
+              to: '/studentmembers',
             },
             {
-              title: "संदेश",
-              to: "/message",
+              title: 'संदेश',
+              to: '/message',
             },
             {
-              title: "राजभाषा संकल्प",
-              to: "/resolution",
+              title: 'राजभाषा संकल्प',
+              to: '/resolution',
             },
             {
-              title: "विचार",
-              to: "/thoughts",
+              title: 'विचार',
+              to: '/thoughts',
             },
           ],
         },
         {
-          title: "कार्यकलाप",
+          title: 'कार्यकलाप',
           items: [
             {
-              title: "हिन्दी कार्यशाला",
-              to: "/workshop",
+              title: 'हिन्दी कार्यशाला',
+              to: '/workshop',
             },
             {
-              title: "हिन्दी कार्यशाला आदेश",
-              to: "/officeOrder",
+              title: 'हिन्दी कार्यशाला आदेश',
+              to: '/officeOrder',
             },
             {
-              title: "हिन्दी दिवस कार्यक्रम",
-              to: "/hindiDayProgram",
+              title: 'हिन्दी दिवस कार्यक्रम',
+              to: '/hindiDayProgram',
             },
           ],
         },
         {
-          title: "संसाधन",
+          title: 'संसाधन',
           items: [
             {
-              title: "हिन्दी लेखा",
-              to: "/writings",
+              title: 'हिन्दी लेखा',
+              to: '/writings',
             },
             {
-              title: "वार्षिक पत्रिका",
-              to: "/",
+              title: 'वार्षिक पत्रिका',
+              to: '/',
             },
           ],
         },
         {
-          title: "आवश्यक लिंक्स",
+          title: 'आवश्यक लिंक्स',
           items: [
             {
-              title: "लिंक्स",
-              to: "/links",
+              title: 'लिंक्स',
+              to: '/links',
             },
           ],
         },
@@ -364,78 +364,78 @@ export default {
     };
   },
   mounted() {
-    const menu = document.getElementsByClassName("expanded-menu")[0];
-    const floatingNavItem = document.getElementsByClassName("nav-1")[0];
+    const menu = document.getElementsByClassName('expanded-menu')[0];
+    const floatingNavItem = document.getElementsByClassName('nav-1')[0];
 
-    const menu2 = document.getElementsByClassName("expanded-menu2")[0];
-    const floatingNavItem2 = document.getElementsByClassName("nav-2")[0];
+    const menu2 = document.getElementsByClassName('expanded-menu2')[0];
+    const floatingNavItem2 = document.getElementsByClassName('nav-2')[0];
 
-    const menu3 = document.getElementsByClassName("expanded-menu3")[0];
-    const floatingNavItem3 = document.getElementsByClassName("nav-3")[0];
+    const menu3 = document.getElementsByClassName('expanded-menu3')[0];
+    const floatingNavItem3 = document.getElementsByClassName('nav-3')[0];
 
-    const menu5 = document.getElementsByClassName("expanded-menu5")[0];
-    const floatingNavItem5 = document.getElementsByClassName("nav-5")[0];
+    const menu5 = document.getElementsByClassName('expanded-menu5')[0];
+    const floatingNavItem5 = document.getElementsByClassName('nav-5')[0];
 
     const activeRemover = () => {
-      menu.classList.remove("active");
-      menu2.classList.remove("active");
-      menu3.classList.remove("active");
-      menu5.classList.remove("active");
+      menu.classList.remove('active');
+      menu2.classList.remove('active');
+      menu3.classList.remove('active');
+      menu5.classList.remove('active');
     };
 
-    floatingNavItem.addEventListener("mouseover", () => {
-      menu.classList.add("active");
+    floatingNavItem.addEventListener('mouseover', () => {
+      menu.classList.add('active');
     });
 
-    floatingNavItem.addEventListener("mouseleave", activeRemover);
+    floatingNavItem.addEventListener('mouseleave', activeRemover);
 
-    menu.addEventListener("mouseover", () => {
-      menu.classList.add("active");
+    menu.addEventListener('mouseover', () => {
+      menu.classList.add('active');
     });
 
-    menu.addEventListener("mouseleave", activeRemover);
+    menu.addEventListener('mouseleave', activeRemover);
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
-    floatingNavItem2.addEventListener("mouseover", () => {
-      menu2.classList.add("active");
+    floatingNavItem2.addEventListener('mouseover', () => {
+      menu2.classList.add('active');
     });
 
-    floatingNavItem2.addEventListener("mouseleave", activeRemover);
+    floatingNavItem2.addEventListener('mouseleave', activeRemover);
 
-    menu2.addEventListener("mouseover", () => {
-      menu2.classList.add("active");
+    menu2.addEventListener('mouseover', () => {
+      menu2.classList.add('active');
     });
 
-    menu2.addEventListener("mouseleave", activeRemover);
+    menu2.addEventListener('mouseleave', activeRemover);
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
-    floatingNavItem3.addEventListener("mouseover", () => {
-      menu3.classList.add("active");
+    floatingNavItem3.addEventListener('mouseover', () => {
+      menu3.classList.add('active');
     });
 
-    floatingNavItem3.addEventListener("mouseleave", activeRemover);
+    floatingNavItem3.addEventListener('mouseleave', activeRemover);
 
-    menu3.addEventListener("mouseover", () => {
-      menu3.classList.add("active");
+    menu3.addEventListener('mouseover', () => {
+      menu3.classList.add('active');
     });
 
-    menu3.addEventListener("mouseleave", activeRemover);
+    menu3.addEventListener('mouseleave', activeRemover);
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
-    floatingNavItem5.addEventListener("mouseover", () => {
-      menu5.classList.add("active");
+    floatingNavItem5.addEventListener('mouseover', () => {
+      menu5.classList.add('active');
     });
 
-    floatingNavItem5.addEventListener("mouseleave", activeRemover);
+    floatingNavItem5.addEventListener('mouseleave', activeRemover);
 
-    menu5.addEventListener("mouseover", () => {
-      menu5.classList.add("active");
+    menu5.addEventListener('mouseover', () => {
+      menu5.classList.add('active');
     });
 
-    menu5.addEventListener("mouseleave", activeRemover);
+    menu5.addEventListener('mouseleave', activeRemover);
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
   },
