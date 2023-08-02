@@ -33,7 +33,7 @@ export default {
     return {
       items: [
         {
-          name: 'डॉ. ओमप्रकाश र. बंसल',
+          name: 'डॉ. ओमप्रकाश र. जयसवाल',
           department: 'निदेशक, रा. प्रो. सं. गोवा ',
           department2: 'अध्यक्ष, राजभाषा समिति',
           url: require('@/assets/director2023.jpeg'),
